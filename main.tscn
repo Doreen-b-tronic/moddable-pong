@@ -19,11 +19,13 @@ metadata/_edit_vertical_guides_ = [-933.0]
 
 [node name="BasicPaddleLeft" parent="." instance=ExtResource("1_xxpg5")]
 position = Vector2(64, 512)
+speed = 1500.0
 tint = Color(0.511023, 0.361749, 0.971889, 1)
 
 [node name="BasicPaddleRight" parent="." instance=ExtResource("1_xxpg5")]
 position = Vector2(1856, 512)
 player = 1
+speed = 1500.0
 tint = Color(0.511023, 0.361749, 0.971889, 1)
 
 [node name="BallSpawner" parent="." groups=["ball spawners"] instance=ExtResource("3_spct4")]
@@ -33,6 +35,8 @@ life_time = 0.0
 
 [node name="BasicBall" parent="BallSpawner" instance=ExtResource("4_rffv2")]
 linear_velocity = Vector2(353.553, 353.553)
+initial_speed = 1000.0
+initial_direction = 3.14159
 tint = Color(0.509804, 0.360784, 0.972549, 1)
 
 [node name="GameLogic" parent="." instance=ExtResource("3_umelw")]

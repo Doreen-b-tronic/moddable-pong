@@ -39,6 +39,7 @@ tint = Color(0.65069, 0.442053, 0.380909, 1)
 score_on_left_goal_reached = false
 score_on_right_goal_reached = false
 score_on_paddle_touched = true
+paddle_touched_scoring_player = 2
 
 [node name="HUD" parent="." instance=ExtResource("4_4868o")]
 font = SubResource("SystemFont_24cl0")

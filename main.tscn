@@ -33,9 +33,12 @@ life_time = 0.0
 
 [node name="BasicBall" parent="BallSpawner" instance=ExtResource("4_rffv2")]
 linear_velocity = Vector2(353.553, 353.553)
-tint = Color(0.509804, 0.360784, 0.972549, 1)
+tint = Color(0.65069, 0.442053, 0.380909, 1)
 
 [node name="GameLogic" parent="." instance=ExtResource("3_umelw")]
+score_on_left_goal_reached = false
+score_on_right_goal_reached = false
+score_on_paddle_touched = true
 
 [node name="HUD" parent="." instance=ExtResource("4_4868o")]
 font = SubResource("SystemFont_24cl0")
